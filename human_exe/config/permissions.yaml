@@ -1,0 +1,15 @@
+roles:
+  agent:
+    allow:
+      - READ_FILE
+      - WRITE_FILE
+      - CREATE_DOCUMENT
+      - OPEN_URL
+      - CLICK
+      - TYPE_TEXT
+      - SEND_DRAFT_FOR_APPROVAL
+      - WAIT_FOR_HUMAN_APPROVAL
+      - ESCALATE_TO_HUMAN
+  supervisor:
+    allow:
+      - "*"

@@ -1,0 +1,28 @@
+{
+  "company": {
+    "company_id": "cmp-001",
+    "name": "Northstar Manufacturing Group",
+    "industry": "Industrial Manufacturing",
+    "employee_count": 1850,
+    "geography": "US + EU"
+  },
+  "departments": [
+    {"department_id": "D-OPS", "name": "Operations", "headcount": 520},
+    {"department_id": "D-CS", "name": "Customer Support", "headcount": 290},
+    {"department_id": "D-FIN", "name": "Finance", "headcount": 180},
+    {"department_id": "D-HR", "name": "Human Resources", "headcount": 120},
+    {"department_id": "D-SALES", "name": "Sales", "headcount": 340}
+  ],
+  "role_profiles_count": 20,
+  "metrics_included": [
+    "task_volume",
+    "system_usage",
+    "backlog",
+    "training_completion",
+    "cycle_time",
+    "error_rate",
+    "manual_handoffs",
+    "tool_usage"
+  ],
+  "note": "Synthetic aggregate demo dataset. No protected class attributes included."
+}

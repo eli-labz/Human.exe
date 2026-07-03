@@ -1,0 +1,4 @@
+annual_savings,assumptions,baseline_cost,implementation_cost,payback_months,productivity_recapture_hours,quality_gain_percent,scenario
+734430.0,"['Decision-support outputs remain human-reviewed.', 'No adverse employment action recommendations are used.', 'Savings realization depends on adoption and governance discipline.']",3090000.0,580000,9.48,10500.0,0.135,conservative
+979240.0,"['Decision-support outputs remain human-reviewed.', 'No adverse employment action recommendations are used.', 'Savings realization depends on adoption and governance discipline.']",3090000.0,580000,7.11,14000.0,0.18,expected
+1175088.0,"['Decision-support outputs remain human-reviewed.', 'No adverse employment action recommendations are used.', 'Savings realization depends on adoption and governance discipline.']",3090000.0,580000,5.92,16800.0,0.216,aggressive

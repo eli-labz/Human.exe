@@ -1,0 +1,6 @@
+risk:
+  approval_threshold: 0.65
+  prohibited_threshold: 0.90
+allocation:
+  ai_share_min: 0.20
+  ai_share_max: 0.50

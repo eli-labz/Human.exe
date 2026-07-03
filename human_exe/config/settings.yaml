@@ -1,0 +1,9 @@
+supervision:
+  default_supervisor_id: supervisor-1
+  max_retry_attempts: 2
+  sandbox_mode: true
+memory:
+  trace_root: .artifacts/human_exe/traces
+  min_quality_score_for_learning: 0.65
+reporting:
+  reliability_report_root: .artifacts/human_exe/reports

@@ -1,0 +1,91 @@
+# Workforce Anomaly Report
+
+Decision support only. Human review required.
+
+- Workload Spike | category=workload | severity=1.00 | confidence=0.75
+  - Evidence: employee_aggregate.task_volume
+  - Recommended response: Rebalance queue routing and add supervised AI copilot for repetitive tasks.
+- Workload Spike | category=workload | severity=1.00 | confidence=0.75
+  - Evidence: employee_aggregate.task_volume
+  - Recommended response: Rebalance queue routing and add supervised AI copilot for repetitive tasks.
+- Workload Spike | category=workload | severity=1.00 | confidence=0.75
+  - Evidence: employee_aggregate.task_volume
+  - Recommended response: Rebalance queue routing and add supervised AI copilot for repetitive tasks.
+- Backlog Spike | category=workload | severity=0.79 | confidence=0.81
+  - Evidence: workflow.backlog_items
+  - Recommended response: Deploy triage copilot and supervised agent routing to reduce intake latency.
+- Long Cycle Time | category=process | severity=0.74 | confidence=0.80
+  - Evidence: workflow.cycle_time_hours
+  - Recommended response: Map handoff points and add supervised agent support for intake, triage, and status updates.
+- Overtime Concentration | category=workload | severity=0.72 | confidence=0.78
+  - Evidence: employee_aggregate.overtime_ratio
+  - Recommended response: Introduce approval-light automation for repetitive throughput work and queue balancing.
+- Overtime Concentration | category=workload | severity=0.72 | confidence=0.78
+  - Evidence: employee_aggregate.overtime_ratio
+  - Recommended response: Introduce approval-light automation for repetitive throughput work and queue balancing.
+- Overtime Concentration | category=workload | severity=0.72 | confidence=0.78
+  - Evidence: employee_aggregate.overtime_ratio
+  - Recommended response: Introduce approval-light automation for repetitive throughput work and queue balancing.
+- Overtime Concentration | category=workload | severity=0.72 | confidence=0.78
+  - Evidence: employee_aggregate.overtime_ratio
+  - Recommended response: Introduce approval-light automation for repetitive throughput work and queue balancing.
+- Skill Gap with Low Training Completion | category=skills | severity=0.71 | confidence=0.76
+  - Evidence: skill.required_level, skill.observed_level, skill.training_completion_rate
+  - Recommended response: Launch role-specific AI literacy and applied workflow training.
+- Skill Gap with Low Training Completion | category=skills | severity=0.71 | confidence=0.76
+  - Evidence: skill.required_level, skill.observed_level, skill.training_completion_rate
+  - Recommended response: Launch role-specific AI literacy and applied workflow training.
+- Skill Gap with Low Training Completion | category=skills | severity=0.71 | confidence=0.76
+  - Evidence: skill.required_level, skill.observed_level, skill.training_completion_rate
+  - Recommended response: Launch role-specific AI literacy and applied workflow training.
+- Skill Gap with Low Training Completion | category=skills | severity=0.71 | confidence=0.76
+  - Evidence: skill.required_level, skill.observed_level, skill.training_completion_rate
+  - Recommended response: Launch role-specific AI literacy and applied workflow training.
+- Skill Gap with Low Training Completion | category=skills | severity=0.71 | confidence=0.76
+  - Evidence: skill.required_level, skill.observed_level, skill.training_completion_rate
+  - Recommended response: Launch role-specific AI literacy and applied workflow training.
+- Manual Work Despite Structured Data | category=technology | severity=0.70 | confidence=0.80
+  - Evidence: task.data_structured, task.average_minutes, task.handoff_count
+  - Recommended response: Evaluate supervised AI agent or deterministic automation for data handling path.
+- Manual Work Despite Structured Data | category=technology | severity=0.70 | confidence=0.80
+  - Evidence: task.data_structured, task.average_minutes, task.handoff_count
+  - Recommended response: Evaluate supervised AI agent or deterministic automation for data handling path.
+- Manual Work Despite Structured Data | category=technology | severity=0.70 | confidence=0.80
+  - Evidence: task.data_structured, task.average_minutes, task.handoff_count
+  - Recommended response: Evaluate supervised AI agent or deterministic automation for data handling path.
+- Manual Work Despite Structured Data | category=technology | severity=0.70 | confidence=0.80
+  - Evidence: task.data_structured, task.average_minutes, task.handoff_count
+  - Recommended response: Evaluate supervised AI agent or deterministic automation for data handling path.
+- Manual Work Despite Structured Data | category=technology | severity=0.70 | confidence=0.80
+  - Evidence: task.data_structured, task.average_minutes, task.handoff_count
+  - Recommended response: Evaluate supervised AI agent or deterministic automation for data handling path.
+- Manual Work Despite Structured Data | category=technology | severity=0.70 | confidence=0.80
+  - Evidence: task.data_structured, task.average_minutes, task.handoff_count
+  - Recommended response: Evaluate supervised AI agent or deterministic automation for data handling path.
+- Manual Work Despite Structured Data | category=technology | severity=0.70 | confidence=0.80
+  - Evidence: task.data_structured, task.average_minutes, task.handoff_count
+  - Recommended response: Evaluate supervised AI agent or deterministic automation for data handling path.
+- Manual Work Despite Structured Data | category=technology | severity=0.70 | confidence=0.80
+  - Evidence: task.data_structured, task.average_minutes, task.handoff_count
+  - Recommended response: Evaluate supervised AI agent or deterministic automation for data handling path.
+- Manual Work Despite Structured Data | category=technology | severity=0.70 | confidence=0.80
+  - Evidence: task.data_structured, task.average_minutes, task.handoff_count
+  - Recommended response: Evaluate supervised AI agent or deterministic automation for data handling path.
+- Excessive Handoffs | category=process | severity=0.68 | confidence=0.77
+  - Evidence: workflow.manual_handoffs
+  - Recommended response: Consolidate ownership and automate structured handoff packets.
+- Repeated Rework | category=process | severity=0.61 | confidence=0.73
+  - Evidence: task.rework_rate
+  - Recommended response: Improve verification steps and introduce AI-assisted quality checks.
+- Repeated Rework | category=process | severity=0.61 | confidence=0.73
+  - Evidence: task.rework_rate
+  - Recommended response: Improve verification steps and introduce AI-assisted quality checks.
+- Repeated Rework | category=process | severity=0.61 | confidence=0.73
+  - Evidence: task.rework_rate
+  - Recommended response: Improve verification steps and introduce AI-assisted quality checks.
+- Repeated Rework | category=process | severity=0.61 | confidence=0.73
+  - Evidence: task.rework_rate
+  - Recommended response: Improve verification steps and introduce AI-assisted quality checks.
+- Repeated Rework | category=process | severity=0.61 | confidence=0.73
+  - Evidence: task.rework_rate
+  - Recommended response: Improve verification steps and introduce AI-assisted quality checks.

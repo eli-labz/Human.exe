@@ -1,0 +1,6 @@
+period,account,category,amount
+2026-Q1,50010,labor,1250000
+2026-Q1,50020,overtime,240000
+2026-Q1,50030,rework,310000
+2026-Q1,50040,operations,860000
+2026-Q1,50050,support,430000
